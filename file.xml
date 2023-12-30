@@ -1,0 +1,9 @@
+<server>
+  <ip>127.0.0.1</ip>
+  <port>80</port>
+  <debug>True</debug>
+  <routes>
+  <path src='/'>func</path>
+  <path src='/add'>func</path>
+  </routes>
+</server>
