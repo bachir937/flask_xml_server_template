@@ -1,9 +1,9 @@
 <server>
-  <ip>127.0.0.1</ip>
-  <port>80</port>
-  <debug>True</debug>
+  <ip>0.0.0.0</ip>
+  <port>5000</port>
+  <debug>False</debug>
   <routes>
-  <path src='/'>func</path>
-  <path src='/add'>func</path>
+  <path src="/" method="GET">func</path>
+  <path src="/a" method="GET">s</path>
   </routes>
 </server>

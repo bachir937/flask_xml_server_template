@@ -1,2 +1,4 @@
 def func():
-     return "hello world!"
+   return "."
+def s():
+   return "hello world"      
